@@ -1,0 +1,726 @@
+
+
+
+       /* ---------------------------- Resopnsive maxwidth:768 ------------------------------------ */
+
+       @media (max-width:768px){
+        .section-1{
+            padding-left: 30px !important;
+            /* padding-right: 30px !important; */
+            background-color: var(--bs-indigo);
+            border-radius: 0px 0px 100px 0px;
+            padding: 50px 10px;
+        }
+
+        .section-1 .home-text h1{
+            font-size: 22px !important;
+        }
+        .section-1 .home-text p{
+            font-size: 15px !important;
+        }
+
+        .section-1 .home-img img{
+            width: 100% !important;
+            max-width: 150px !important;
+        }
+
+        .section-1 .home-img .circle{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            top: 40%;
+            right: -16%;
+            transform: translate(-50%,-50%);
+            z-index: 1;
+        }
+        .section-1 .home-img .circle::before{
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            left: 20px;
+            top: 20px;
+            background-color: rgba(255, 255, 255, 0.4);
+            transform-origin: 80px 80px;
+            animation: circleRotate linear 7s infinite;
+    
+        }
+
+
+
+
+        /* section 2 */
+        .section-title{
+            padding: 50px;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2{
+            font-size: 33px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        .section-2 .features-item{
+            text-align: center;
+            margin-top: 0% !important;
+        }
+        .section-2 .features-item h3{
+            font-size: 20px;
+            margin: 0 0 10px;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .section-2 .features-item p{
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 300;
+            color: var(--bs-dark);
+        }
+        .section-2 .features-item .icon{
+            height: 60px;
+            width: 60px;
+            margin: 0 auto 0px;
+            text-align: center;
+            font-size: 30px;
+            color: var(--bs-indigo);
+            position: relative;
+        }
+        .owl-carousel .owl-dots{
+            padding: 0 15px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 5%;
+        }
+        .owl-carousel button.owl-dot{
+            width: 20px;
+            height: 5px;
+            background-color: rgb(186, 187, 175) !important;
+            margin: 0px 4px;
+            display: inline-block;
+    
+            border-radius: 5px;
+        }
+
+
+              /* ------ Start Section 3 dices and texts ------  */
+              .section-3{
+                  margin: auto 15px;
+              }
+              .section-3 .row .images{
+                margin: auto;
+            }
+            .section-3 .row .image img{
+                width: 100%;
+                max-width: 240px;
+            }
+            .section-3 .row .text{
+                text-align: start;
+            }
+            .section-3 .row .text h3{
+                font-size: 33px;
+                color: var(--bs-dark);
+                font-weight: 700;
+            }
+            .section-3 .row .text p{
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            
+            .section-3 .row .box{
+                padding: 10px 10px;
+                border-radius: 10px;
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+                margin-top: 20px;
+                
+            }
+                   /* ------  Start section 4 screenshort owo-carousel ------  */
+        .section-4{
+            z-index: -1 !important;
+            margin-top: 40px;
+
+        }
+        .section-4 .container .row h2{
+            font-size: 33px;
+            color: var(--bs-dark);
+            font-weight: 600;
+            margin-top: 30px;
+        }
+        .section-4 .container .row h2 span{
+            color: var(--bs-indigo);
+        }
+        .screenshots-item {
+            margin: 10px;
+        }
+        .screenshots-item img{
+            width: 100%;
+            max-width: 200px;
+            display: block;
+        }
+
+        /* ---X--- End section 4 screenshort owo-carouse ---X---  */
+
+        
+        /* ------ End section 5 app download ------  */
+        .section-5{
+            margin: 0px;
+        }
+        section.app-download{
+            background: url('../images/imgsection5.jfif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+            z-index: 1;
+            padding:  0 0 40px;
+        }
+        .app-download::before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            top: 0%;
+            left: 0%;
+            z-index: -1;
+            background-color: var(--bs-indigo);
+            opacity: 0.5;
+        }
+
+        section.app-download .container .row h2{
+            color: var(--bs-light);
+            font-weight: 700;
+            font-size: 33px;
+            padding: 30px 0;
+        }
+        section.app-download .container .row h2 span{
+            color: var(--bs-indigo);
+        }
+        .download-app-item{
+            background-color: var(--bs-light);
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        .download-app-item i{
+            font-size: 30px;
+            color: var(--bs-indigo) !important;
+            margin-bottom: 20px;
+        }
+  
+        /* ---X--- End section 5 app download ---X---  */
+
+
+        
+        /* ------ Start How it works ------  */
+
+        .section-6{
+            margin: 60px 0px;
+            padding: 60px 0 auto;
+            /* background-color: rgba(231, 227, 227, 0.787); */
+        }
+        .section-6 .container .row h2{
+            font-size: 33px;
+        }
+
+        .section-6 .container .row .step{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            background-color: var(--bs-indigo);
+            text-align: center;
+            color: var(--bs-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        .section-6 .container .row .how-it-works-item h3{
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--bs-secondary);
+            margin: 20px auto;
+        }
+        .section-6 .container .row .how-it-works-item p{
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 3%;
+        }
+        .section-6 .container .row .how-it-works-item{
+            position: relative;
+        }
+        .section-6 .container .row .how-it-works-item::before{
+            width: 100%;
+            display: inline-block;
+            height: 2px;
+            top: 15%;
+            
+            left: 0%;
+            border-radius: 10px;
+            background-color: var(--bs-indigo);
+            content: "";
+            position: absolute;
+            z-index: -1;
+        }
+
+
+        /* ---X--- End How it works ---X---  */
+
+
+
+
+        .section-7{
+            padding: 50px 0px;
+            background-color: rgba(224, 217, 217, 0.363);
+            color: var(--bs-dark);
+        }
+       .section-7 .row > div .site-title h2{
+           font-size: 33px;
+           font-weight: bold;
+           margin: 10px 0 30px;
+       }
+       .section-7 .row .site-title h2 span{
+           color: var(--bs-indigo);
+       }
+   
+
+
+
+
+       
+    /* ------ Start section 8 Prising plane------    */
+
+    .section-8{
+        margin: 0;
+        padding: 50px 0px;
+    }
+    .section-8 .row h2{
+        font-size: 33px;
+    }
+    .section-8 .row .priceing-plane{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .section-8 .row .priceing-plane .price{
+        display: flex;
+        justify-content: center;
+        color: var(--bs-secondary);
+        margin-bottom: 20px;
+    }
+
+
+
+        /* ------ End section 9 team Member------   */
+
+        .section-9{
+            margin: 0;
+            padding: 50px 0 auto;
+        }
+        .section-9 .container .row h2{
+            font-size: 33px;
+            margin: 0px 0 40px;
+            color: var(--bs-dark);
+            font-weight: 600;
+        }
+        .section-9 .container .row .team-member .team-member-item{
+            width: 100%;
+            height: auto;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            padding: 50 50px;
+            margin: auto !important;
+        }
+        .section-9 .container .row .team-member .team-member-item img{
+            min-width: 120px;
+            width: 100%;
+            max-width: 180px;
+            max-height: 199px;
+        }
+        .section-9 .container .row .team-member .team-member-item h4 {
+            font-size: 20px;
+            font-weight: lighter;
+            color: var(--bs-secondary);
+        }
+        .section-9 .container .row .team-member .team-member-item p{
+            font-size: 15px;
+            color: var(--bs-secondary);
+            line-height: 0.9;
+    
+            
+        }
+    
+         /* ---X--- End section 9 team Member---X---    */
+
+
+
+         
+    /* ------ Start section 10 accordation ------ */
+    .section-10 {
+        padding: 30px 0px !important;
+    }
+    .section-10 .container-sm ,.section-10 .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+     .section-10 .container .row .site-title h2{
+        font-size: 33px !important;
+        margin: 0px 0 50px;
+        color: var(--bs-dark);
+        font-weight: 600;
+     }
+    .section-10 .row .accordion-item .accordion-header{
+        width: 100%;
+        height: 50px;
+        background-color: blue !important;
+        border: none !important;
+        border-radius: 10px !important;
+    }
+    .section-10 .row .accordion-item .accordion-header .accordion-button {
+        width: 100%;
+        height: auto !important;
+        background-color: var(--bs-white) !important;
+        border: none;
+        outline: none;
+        box-shadow: var(--shadow);
+        outline-style: none !important;
+        margin-top: 30px;
+    }
+
+       /* ---X---End section 10 accordation ---X--- */
+
+    
+    
+  
+    }
+
+/* ---X--- Start section 8 Prising plane---X---    */
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+       @media (max-width:575px){
+
+            /* section 1 */
+
+           .section-1{
+            padding: 0px 10px;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+           }
+
+           .section-1 .home-img .circle{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 1;
+        }
+        .section-1 .home-img .circle::before{
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            left: 20px;
+            top: 20px;
+            background-color: rgba(255, 255, 255, 0.4);
+            transform-origin: 80px 80px;
+            animation: circleRotate linear 7s infinite;
+    
+        }
+
+
+
+
+
+
+
+
+
+
+
+           .section-1 .row {
+               display: flex;
+               align-items: flex-start !important;
+               padding: 50px 10px;
+           }
+           .section-1 .row .home-text{
+            display: block;
+            text-align: center;
+           }
+           .section-1 .row .home-text h1{
+               font-size: 25px !important;
+               width: 100%;
+           }
+           .section-1 .row .home-img{
+               position: static;
+               width: 100%;
+               margin: auto;
+               height: auto;
+           }
+           .section-1 .row .home-img img{
+            
+            position: static;
+            right: 30%;
+            margin-top: 30px;
+            width: 100% !important;
+            animation: imgMotion linear 4s infinite;
+            max-width: 350px;
+            max-height: 400px;
+           }
+           .section-1 .row .home-btn .btn:first-child{
+               display: inline;
+               padding: 10px 20px !important;
+               display: inline;
+           }
+           .section-1 .row .home-btn #showVideo{
+               width: 40px !important;
+               height: 40px !important;
+               border-radius: 50px;
+               padding: 10px 14px !important;
+               display: inline;
+           }
+
+
+
+
+
+
+           
+
+              /* ------ Start Section 3 dices and texts ------  */
+          .section-3{
+                margin: auto 15px;
+            }
+          .section-3 .row .images{
+              margin: auto;
+              text-align: center;
+          }
+          .section-3 .row .image{
+              text-align: center;
+          }
+          .section-3 .row .image img{
+              width: 100%;
+              max-width: 240px;
+              margin: auto;
+          }
+          .section-3 .row .text{
+              text-align: center;
+              margin-top: 30px;
+          }
+          .section-3 .row .text h3{
+              font-size: 28px;
+              color: var(--bs-dark);
+              font-weight: 600;
+          }
+          .section-3 .row .text p{
+              font-size: 15px;
+              line-height: 1.5;
+          }
+          
+          .section-3 .row .box{
+              padding: 10px 10px;
+              border-radius: 10px;
+              text-align: center;
+              display: inline-block;
+              width: 100%;
+              margin-top: 20px;
+              
+          }
+
+
+                             /* ------  Start section 4 screenshort owo-carousel ------  */
+        .section-4{
+            z-index: -1 !important;
+            margin-top: 40px;
+
+        }
+        .section-4 .container .row h2{
+            font-size: 23px;
+            color: var(--bs-dark);
+            font-weight: 600;
+            margin-top: 30px;
+        }
+        .section-4 .container .row h2 span{
+            color: var(--bs-indigo);
+        }
+        .screenshots-item {
+            margin-left: 30px;
+        }
+        .screenshots-item img{
+            width: 100%;
+            max-width: 200px;
+            display: block;
+        }
+
+        /* ---X--- End section 4 screenshort owo-carouse ---X---  */
+
+
+
+
+                   
+    /* ------ Start section 8 Prising plane------    */
+
+    .section-8{
+        margin: 0;
+        padding: 50px 0px;
+    }
+    .section-8 .row h2{
+        font-size: 33px;
+    }
+    .section-8 .row .priceing-plane{
+        width: 100%;
+        height: auto;
+        padding: auto 10px;
+        margin: auto;
+    }
+    .section-8 .row .priceing-plane .price{
+        display: flex;
+        justify-content: center;
+        color: var(--bs-secondary);
+        margin-bottom: 20px;
+    }
+  
+    
+
+
+
+
+
+    
+    .section-9{
+        margin: 0;
+        padding: 50px 0 auto;
+    }
+    .section-9 .container .row h2{
+        font-size: 33px;
+        margin: 0px 0 40px;
+        color: var(--bs-dark);
+        font-weight: 600;
+    }
+    .section-9 .container .row .team-member .team-member-item{
+        max-width: 250px;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        box-shadow: var(--shadow);
+        padding: 50 50px;
+        /* margin: auto; */
+        margin: auto !important;
+    }
+    .section-9 .container .row .team-member .team-member-item img{
+        min-width: 120px;
+        width: 100%;
+        max-width: 180px;
+        max-height: 199px;
+    }
+    .section-9 .container .row .team-member .team-member-item h4 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: var(--bs-secondary);
+    }
+    .section-9 .container .row .team-member .team-member-item p{
+        font-size: 15px;
+        color: var(--bs-secondary);
+        line-height: 0.9;
+    }
+
+     /* ---X--- End section 9 team Member---X---    */
+
+
+
+
+
+
+
+        /* ------Start section-11 Get in toch ------ */
+
+    .section-11{
+        padding: 50px 0;
+        margin: 0%;
+    }
+    .section-11 .row .site-title h2{
+        font-size: 33px;
+        margin: 0px 0 50px;
+        color: var(--bs-dark);
+        font-weight: 600;
+    }
+    .section-11 .row .data h4{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .section-11 .row .data .inner-data{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: center;
+        
+    }
+
+       /* ---X---Start section-11 Get in toch ---X--- */
+
+
+
+
+
+              /* ------ footer ------ */
+
+    .footer{
+        background-color: var(--bs-indigo);
+        color: var(--bs-light);
+        margin: 0px;
+        padding: 50px 0 10px;
+        height: auto;
+    }
+    .footer .row h4{
+        font-size: 22px;
+    }
+    .footer .row ul,.footer .row .inner-text {
+        list-style: none;
+        padding: 15px 0;
+        line-height: 1.5;
+    }
+    .footer .row ul li{
+        margin: 10px 0;
+    }
+    .footer .row ul li a{
+        text-decoration: none;
+        color: var(--bs-light);
+        list-style: none;
+        transition: all 0.5s ease-in-out;
+    }
+    .footer .row ul li a:hover{
+        margin-left: -3px;
+    }
+    .footer .copyrights .inner-copy{
+        margin: 30px 0  20px !important;
+
+    }
+       /* ---X--- footer ---X--- */
+
+
+    }
